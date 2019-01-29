@@ -1,0 +1,42 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.insertSnippet",
+    "args": { "snippet": "console.log($1);" }
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.insertSnippet",
+    "args": { "snippet": "Alert.alert(\"\", $1);" }
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "editor.action.insertSnippet",
+    "args": { "snippet": "($1) => {  }" }
+  },
+  {
+    "key": "shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+delete",
+    "command": "-editor.action.clipboardCutAction",
+    "when": "textInputFocus && !editorReadonly"
+  },{
+    "key": "ctrl+shift+k",
+    "command": "editor.action.insertSnippet",
+    "args": { "snippet": "`${$1}`" }
+  }
+]
