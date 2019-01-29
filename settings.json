@@ -1,0 +1,22 @@
+{
+  "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
+    "editor.renderWhitespace": "all",
+    "editor.emptySelectionClipboard": true,
+    "editor.hover.delay": 2500,
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.detectIndentation": false,
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "git.confirmSync": false,
+    "editor.hover.enabled": false,
+    // "javascript.format.enable": false,
+    // "prettier.tabWidth": 2,
+    // "prettier.trailingComma": "all",
+    // "emmet.syntaxProfiles": {
+    //   "javascript": "jsx"
+    // },
+}
