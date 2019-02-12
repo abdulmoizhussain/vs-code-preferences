@@ -1,5 +1,6 @@
 {
-  "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
+    "editor.minimap.enabled": true,
+    "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
     "editor.renderWhitespace": "all",
     "editor.emptySelectionClipboard": true,
     "editor.hover.delay": 2500,
@@ -9,7 +10,6 @@
     "editor.detectIndentation": false,
     "breadcrumbs.enabled": true,
     "breadcrumbs.filePath": "on",
-    "editor.minimap.enabled": false,
     "extensions.ignoreRecommendations": true,
     "git.confirmSync": false,
     "editor.hover.enabled": false,
