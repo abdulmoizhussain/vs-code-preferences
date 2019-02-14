@@ -5,7 +5,7 @@
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "($1) => {  }"
+            "snippet": "($1) => { $2 }"
         }
     },
     {
@@ -13,14 +13,22 @@
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "Object.keys($0);"
+            "snippet": "JSON.stringify($1);$2"
         }
     },
     {
         "key": "ctrl+shift+k",
         "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
         "args": {
-            "snippet": "Alert.alert(\"\", $1);"
+            "snippet": "Object.keys($1);$2"
+        }
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "Alert.alert(\"$1\", $2);"
         }
     },
     {
@@ -28,7 +36,7 @@
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "console.log(${1:${TM_SELECTED_TEXT}}$0);"
+            "snippet": "console.log(${1:${TM_SELECTED_TEXT}});$0"
         }
     },
     {
@@ -43,7 +51,7 @@
         "key": "ctrl+shift+'",
         "command": "editor.action.insertSnippet",
         "args": {
-            "snippet": "`${$1}`"
+            "snippet": "`${$1}`$2"
         }
     },
     {
