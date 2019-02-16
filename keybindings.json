@@ -1,67 +1,67 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "ctrl+shift+a",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "($1) => { $2 }"
-        }
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "JSON.stringify($1);$2"
-        }
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "Object.keys($1);$2"
-        }
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "editor.action.insertSnippet",
-        "args": {
-            "snippet": "Alert.alert(\"$1\", $2);"
-        }
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "console.log(${1:${TM_SELECTED_TEXT}});$0"
-        }
-    },
-    {
-        "key": "ctrl+shift+;",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "console.group();\r$1\rconsole.groupEnd();"
-        }
-    },
-    {
-        "key": "ctrl+shift+'",
-        "command": "editor.action.insertSnippet",
-        "args": {
-            "snippet": "`${$1}`$2"
-        }
-    },
-    {
-        "key": "shift+delete",
-        "command": "editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+x",
-        "command": "editor.action.clipboardCutAction",
-        "when": "textInputFocus && !editorReadonly"
-    },
+  {
+    "key": "ctrl+shift+a",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "($1) => {$0}"
+    }
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "JSON.stringify($1);$0"
+    }
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "Object.keys($1);$0"
+    }
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.insertSnippet",
+    "args": {
+      "snippet": "Alert.alert(\"$1\", $0);"
+    }
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log(${1:${TM_SELECTED_TEXT}});$0"
+    }
+  },
+  {
+    "key": "ctrl+shift+;",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.group();\r$0\rconsole.groupEnd();"
+    }
+  },
+  {
+    "key": "ctrl+shift+'",
+    "command": "editor.action.insertSnippet",
+    "args": {
+      "snippet": "`${$1}`$0"
+    }
+  },
+  {
+    "key": "shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
 ]
