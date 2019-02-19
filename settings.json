@@ -1,5 +1,7 @@
 {
     "editor.minimap.enabled": true,
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": true,
     "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
     "editor.renderWhitespace": "all",
     "editor.emptySelectionClipboard": true,
@@ -19,4 +21,6 @@
     // "emmet.syntaxProfiles": {
     //   "javascript": "jsx"
     // },
+    "editor.tabSize": 2,
+    "vetur.format.defaultFormatter.js": "vscode-typescript"
 }
