@@ -1,26 +1,39 @@
 {
-    "editor.minimap.enabled": true,
-    "files.autoSave": "afterDelay",
-    "editor.minimap.enabled": true,
-    "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
-    "editor.renderWhitespace": "all",
-    "editor.emptySelectionClipboard": true,
-    "editor.hover.delay": 2500,
-    "editor.mouseWheelZoom": true,
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.detectIndentation": false,
-    "breadcrumbs.enabled": true,
-    "breadcrumbs.filePath": "on",
-    "extensions.ignoreRecommendations": true,
-    "git.confirmSync": false,
-    "editor.hover.enabled": false,
-    // "javascript.format.enable": false,
-    // "prettier.tabWidth": 2,
-    // "prettier.trailingComma": "all",
-    // "emmet.syntaxProfiles": {
-    //   "javascript": "jsx"
-    // },
-    "editor.tabSize": 2,
-    "vetur.format.defaultFormatter.js": "vscode-typescript"
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "files.autoSaveDelay": 1000,
+  "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
+  "editor.emptySelectionClipboard": true,
+  "editor.hover.delay": 2500,
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.detectIndentation": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "extensions.ignoreRecommendations": true,
+  "git.confirmSync": false,
+  "editor.hover.enabled": false,
+  // "javascript.format.enable": false,
+  // "prettier.tabWidth": 2,
+  // "prettier.trailingComma": "all",
+  // "emmet.syntaxProfiles": {
+  //   "javascript": "jsx",
+  // },
+  // "javascript.format.enable": false,
+  // "prettier.tabWidth": 2,
+  // "prettier.trailingComma": "all",
+  // "emmet.syntaxProfiles": {
+  //   "javascript": "jsx"
+  // },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+  },
+  "editor.tabSize": 2,
+  "vetur.format.defaultFormatter.js": "vscode-typescript"
 }
