@@ -35,5 +35,7 @@
     "plaintext": "jade"
   },
   "editor.tabSize": 2,
-  "vetur.format.defaultFormatter.js": "vscode-typescript"
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "banishPointer.action": "moveBy -30x-30",
+  "telemetry.enableTelemetry": false
 }
