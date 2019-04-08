@@ -16,6 +16,7 @@
   "extensions.ignoreRecommendations": true,
   "git.confirmSync": false,
   "editor.hover.enabled": false,
+  "update.showReleaseNotes": false,
   // "javascript.format.enable": false,
   // "prettier.tabWidth": 2,
   // "prettier.trailingComma": "all",
