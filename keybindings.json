@@ -1,57 +1,80 @@
-// Place your key bindings in this file to override the defaults
-[
-  {
-    "key": "ctrl+shift+alt+a",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "($1) => {$0}"
-    }
+{
+  // "git.enableSmartCommit": true,
+  // "git.confirmSync": false,
+  // "javascript.format.enable": false,
+  // "prettier.tabWidth": 2,
+  // "prettier.trailingComma": "all",
+  // "emmet.syntaxProfiles": {
+  //   "javascript": "jsx",
+  // },
+  // "javascript.format.enable": false,
+  // "prettier.tabWidth": 2,
+  // "prettier.trailingComma": "all",
+  // "emmet.syntaxProfiles": {
+  //   "javascript": "jsx"
+  // },
+  // "vetur.format.defaultFormatter.js": "vscode-typescript",
+  // "turboConsoleLog.addSemicolonInTheEnd": true,
+  // "turboConsoleLog.quote": "`",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "prettier.jsxBracketSameLine": true,
+  // "prettier.printWidth": 4000
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "none",
+  "files.autoSaveDelay": 10000,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": true,
+  "editor.fontFamily": "'lucida sans typewriter', 'consolas', 'Fira Mono', 'Courier New'",
+  "editor.fontLigatures": true,
+  "editor.emptySelectionClipboard": true,
+  "editor.mouseWheelZoom": true,
+  "editor.detectIndentation": false,
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 1000,
+  "editor.autoIndent": "full",
+  "editor.trimAutoWhitespace": false,
+  "editor.wordWrapColumn": 300,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "extensions.ignoreRecommendations": true,
+  "update.showReleaseNotes": false,
+  "window.openFoldersInNewWindow": "on",
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 300,
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "html.format.maxPreserveNewLines": null,
+  "html.format.endWithNewline": false,
+  // "html.format.extraLiners": "head, body, /html",
+  "html.format.extraLiners": null,
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "vue-html": "html",
+      "razor": "html",
+      "plaintext": "jade"
   },
-  {
-    "key": "ctrl+shift+alt+j",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "JSON.stringify(${1:${TM_SELECTED_TEXT}});$0"
-    }
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "python.jediEnabled": false,
+  "telemetry.enableTelemetry": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true,
   },
-  {
-    "key": "ctrl+shift+alt+k",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "Object.keys(${1:${TM_SELECTED_TEXT}});$0"
-    }
-  },
-  {
-    "key": "ctrl+shift+alt+i",
-    "command": "editor.action.insertSnippet",
-    "args": {
-      "snippet": "Alert.alert(\"$1\", $0);"
-    }
-  },
-  {
-    "key": "ctrl+shift+alt+l",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "console.log(${1:${TM_SELECTED_TEXT}})$0"
-    }
-  },
-  {
-    "key": "ctrl+shift+alt+;",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "console.group();\r${0:${TM_SELECTED_TEXT}}\rconsole.groupEnd();"
-    }
-  },
-  {
-    "key": "ctrl+shift+alt+'",
-    "command": "editor.action.insertSnippet",
-    "args": {
-      "snippet": "`${${1:${TM_SELECTED_TEXT}}}`$0"
-    }
-  },
-]
+  //"editor.snippetSuggestions": "",
+  "editor.suggestSelection": "first",
+  "emmet.showExpandedAbbreviation": "never",
+  // "[html]": {
+  //   "editor.defaultFormatter": "HookyQR.beautify"
+  // },
+  // "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${rootName}${separator}${appName}",
+  "window.title": "${rootPath}${separator}${dirty}${activeEditorShort}",
+  "window.titleBarStyle": "custom",
+  "editor.tabSize": 2
+}
