@@ -5,7 +5,7 @@
       "command": "editor.action.insertSnippet",
       "when": "editorTextFocus",
       "args": {
-        "snippet": "($1) => {$0}"
+        "snippet": "($2) => { ${1:${TM_SELECTED_TEXT}} }$0"
       }
     },
     {
