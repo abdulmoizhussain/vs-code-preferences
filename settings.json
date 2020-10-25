@@ -1,33 +1,85 @@
 {
+  "update.showReleaseNotes": false,
+  "workbench.startupEditor": "none",
   "editor.renderWhitespace": "all",
-  "editor.minimap.enabled": false,
-  "files.autoSave": "afterDelay",
-  "git.enableSmartCommit": true,
-  "files.autoSaveDelay": 1000,
+  "editor.minimap.enabled": true,
   "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
   "editor.emptySelectionClipboard": true,
   "editor.hover.delay": 2500,
   "editor.mouseWheelZoom": true,
-  "window.zoomLevel": 1,
-  "workbench.startupEditor": "newUntitledFile",
   "editor.detectIndentation": false,
+  "editor.hover.enabled": false,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.autoIndent": "full",
+  "editor.trimAutoWhitespace": false,
+  "editor.wordWrapColumn": 300,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true,
+  },
+  "editor.suggestSelection": "first",
+  //"editor.snippetSuggestions": "",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[html]": {
+  //   "editor.defaultFormatter": "HookyQR.beautify"
+  // },
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  // "git.enableSmartCommit": true,
+  "files.autoSaveDelay": 1000,
+  "window.zoomLevel": 0,
+  "window.openFoldersInNewWindow": "on",
+  // "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${rootName}${separator}${appName}",
+  "window.title": "${rootPath}${separator}${dirty}${activeEditorShort}",
+  "window.titleBarStyle": "custom",
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
   "extensions.ignoreRecommendations": true,
-  "git.confirmSync": false,
-  "editor.hover.enabled": false,
-  "update.showReleaseNotes": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.format.semicolons": "insert",
   // "javascript.format.enable": false,
+  "telemetry.enableTelemetry": false,
+  "typescript.format.semicolons": "insert",
+  // "vetur.format.defaultFormatter.js": "vscode-typescript",
+  // "banishPointer.action": "moveBy -30x-30",
   // "prettier.tabWidth": 2,
   // "prettier.trailingComma": "all",
+  // "vetur.format.defaultFormatter.js": "vscode-typescript",
+  // "turboConsoleLog.addSemicolonInTheEnd": true,
+  // "turboConsoleLog.quote": "`",
+  // "prettier.jsxBracketSameLine": true,
+  // "prettier.printWidth": 4000
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 300,
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "html.format.maxPreserveNewLines": null,
+  "html.format.endWithNewline": false,
+  // "html.format.extraLiners": "head, body, /html",
+  "html.format.extraLiners": null,
+  "python.defaultInterpreterPath": "C:\\Program Files\\Python38\\python.exe",
+  "python.jediEnabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
   // "emmet.syntaxProfiles": {
   //   "javascript": "jsx",
   // },
-  // "javascript.format.enable": false,
-  // "prettier.tabWidth": 2,
-  // "prettier.trailingComma": "all",
+  "emmet.showExpandedAbbreviation": "never",
   // "emmet.syntaxProfiles": {
   //   "javascript": "jsx"
+  // },
+  // "emmet.syntaxProfiles": {
+  //   "javascript": "jsx"
+  // },
+  // "emmet.syntaxProfiles": {
+  //   "javascript": "jsx",
   // },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -35,8 +87,4 @@
     "razor": "html",
     "plaintext": "jade"
   },
-  "editor.tabSize": 2,
-  "vetur.format.defaultFormatter.js": "vscode-typescript",
-  "banishPointer.action": "moveBy -30x-30",
-  "telemetry.enableTelemetry": false
 }
