@@ -1,4 +1,13 @@
 {
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
   "update.showReleaseNotes": false,
   "workbench.startupEditor": "none",
   "editor.renderWhitespace": "all",
@@ -33,7 +42,6 @@
   "files.autoSave": "afterDelay",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  // "git.enableSmartCommit": true,
   "files.autoSaveDelay": 1000,
   "window.zoomLevel": 0,
   "window.openFoldersInNewWindow": "on",
