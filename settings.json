@@ -1,5 +1,4 @@
 {
-  "git.autofetch": true,
   "explorer.confirmDelete": false,
   "workbench.editorAssociations": [
     {
@@ -39,10 +38,11 @@
   // "[html]": {
   //   "editor.defaultFormatter": "HookyQR.beautify"
   // },
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
+  "files.autoSaveDelay": 1000,
+  "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "files.autoSaveDelay": 1000,
   "window.zoomLevel": 0,
   "window.openFoldersInNewWindow": "on",
   // "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${rootName}${separator}${appName}",
@@ -79,7 +79,7 @@
   // "emmet.syntaxProfiles": {
   //   "javascript": "jsx",
   // },
-  "emmet.showExpandedAbbreviation": "never",
+  "emmet.showExpandedAbbreviation": "always",
   // "emmet.syntaxProfiles": {
   //   "javascript": "jsx"
   // },
