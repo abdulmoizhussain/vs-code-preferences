@@ -85,14 +85,34 @@
     "when": "editorTextFocus"
   },
   // for linux
-  // {
-  //   "key": "ctrl+e",
-  //   "command": "workbench.view.explorer",
-  //   "when": "viewContainer.workbench.view.explorer.enabled"
-  // },
-  // {
-  //   "key": "ctrl+shift+e",
-  //   "command": "-workbench.view.explorer",
-  //   "when": "viewContainer.workbench.view.explorer.enabled"
-  // },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  }
 ]
