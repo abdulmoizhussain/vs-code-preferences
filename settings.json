@@ -12,6 +12,7 @@
   "editor.renderWhitespace": "all",
   "editor.minimap.enabled": true,
   "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
+  "terminal.integrated.fontFamily": "monospace",
   "editor.emptySelectionClipboard": true,
   "editor.hover.delay": 2500,
   "editor.mouseWheelZoom": true,
@@ -43,7 +44,6 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "window.zoomLevel": 0,
   "window.openFoldersInNewWindow": "on",
   // "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${rootName}${separator}${appName}",
   "window.title": "${rootPath}${separator}${dirty}${activeEditorShort}",
@@ -95,4 +95,5 @@
     "razor": "html",
     "plaintext": "jade"
   },
+  "window.zoomLevel": 1,
 }
