@@ -1,23 +1,18 @@
+// just a comment
 {
-  "explorer.confirmDelete": false,
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
   "update.showReleaseNotes": false,
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "workbench.startupEditor": "none",
   "editor.renderWhitespace": "all",
   "editor.minimap.enabled": true,
-  "editor.fontFamily": "'lucida sans typewriter', consolas, 'Courier New'",
-  "terminal.integrated.fontFamily": "monospace",
   "editor.emptySelectionClipboard": true,
-  "editor.hover.delay": 2500,
+  // "editor.hover.delay": 2500,
+  // "editor.hover.enabled": true,
   "editor.mouseWheelZoom": true,
   "editor.detectIndentation": false,
-  "editor.hover.enabled": false,
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
   "editor.autoIndent": "full",
@@ -48,23 +43,23 @@
   // "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${rootName}${separator}${appName}",
   "window.title": "${rootPath}${separator}${dirty}${activeEditorShort}",
   "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
-  "extensions.ignoreRecommendations": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "javascript.format.semicolons": "insert",
   // "javascript.format.enable": false,
-  "telemetry.enableTelemetry": false,
   "typescript.format.semicolons": "insert",
+  "telemetry.enableTelemetry": false,
+  // "vetur.format.defaultFormatter.js": "vscode-typescript",
   // "vetur.format.defaultFormatter.js": "vscode-typescript",
   // "banishPointer.action": "moveBy -30x-30",
   // "prettier.tabWidth": 2,
   // "prettier.trailingComma": "all",
-  // "vetur.format.defaultFormatter.js": "vscode-typescript",
-  // "turboConsoleLog.addSemicolonInTheEnd": true,
-  // "turboConsoleLog.quote": "`",
   // "prettier.jsxBracketSameLine": true,
   // "prettier.printWidth": 4000
+  // "turboConsoleLog.addSemicolonInTheEnd": true,
+  // "turboConsoleLog.quote": "`",
   "html.format.wrapAttributes": "auto",
   "html.format.wrapLineLength": 300,
   "html.format.enable": true,
@@ -95,5 +90,6 @@
     "razor": "html",
     "plaintext": "jade"
   },
-  "window.zoomLevel": 1,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  // "terminal.integrated.fontFamily": "monospace",
 }
