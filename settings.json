@@ -1,4 +1,4 @@
-// just a comment
+// Change your vs-code settings from this file to override the defaults
 {
   "update.showReleaseNotes": false,
   "explorer.confirmDelete": false,
