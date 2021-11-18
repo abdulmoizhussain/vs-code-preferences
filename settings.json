@@ -1,5 +1,6 @@
 // Change your vs-code settings from this file to override the defaults
 {
+  "workbench.colorTheme": "Default Dark+",
   "update.showReleaseNotes": false,
   "explorer.confirmDelete": false,
   "workbench.editorAssociations": {
@@ -40,17 +41,15 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "window.openFoldersInNewWindow": "on",
-  // "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${rootName}${separator}${appName}",
-  "window.title": "${rootPath}${separator}${dirty}${activeEditorShort}",
+  "window.title": "${dirty}${rootName}${separator}${rootPath}", // dirty means: the dot icon, when a file has unsaved changes.
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 1,
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
   "javascript.updateImportsOnFileMove.enabled": "never",
   "javascript.format.semicolons": "insert",
   // "javascript.format.enable": false,
   "typescript.format.semicolons": "insert",
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   // "vetur.format.defaultFormatter.js": "vscode-typescript",
   // "vetur.format.defaultFormatter.js": "vscode-typescript",
   // "banishPointer.action": "moveBy -30x-30",
